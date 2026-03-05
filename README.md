@@ -65,7 +65,7 @@ Testing binary trees requires you to manually link tree nodes in a **[`tester.c`
 
 Just like C 12, to avoid "undefined reference" errors, the **[`tester.c`](tester.c)** file in the root directory uses **C Preprocessor Macros** (`#ifdef`). This allows you to selectively compile and test only the exercises you want.
 
-> **Important Setup Note:** Because [`ft_btree.h`](ex00/ft_btree.h)** must be included in each individual exercise folder (and generally forbidden from being turned in at the root), you must use the `-I ex00` compiler flag when testing from the root so the compiler knows where to find your structure!
+> **Important Setup Note:** Because **[`ft_btree.h`](ex00/ft_btree.h)** must be included in each individual exercise folder (and generally forbidden from being turned in at the root), you must use the `-I ex00` compiler flag when testing from the root so the compiler knows where to find your structure!
 
 1. **Clone the repository:**
    You can clone this module directly, or pull the entire 42 Piscine parent repository which includes this module as a submodule.
@@ -121,7 +121,7 @@ Before writing any code, every file must start with the standard 42 header. `nor
 /*   By: maaugust <maaugust@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/03 02:12:03 by maaugust          #+#    #+#             */
-/*   Updated: 2026/03/03 02:12:04 by maaugust         ###   ########.fr       */
+/*   Updated: 2026/03/05 02:28:40 by maaugust         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 ```
